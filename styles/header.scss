@@ -1,0 +1,133 @@
+.topsection {
+  background-color: #f3c6bd;
+  @include for-large-up {
+    background-color: #f3c6bd;
+    padding: 39px;
+    padding-bottom: 0px;
+  }
+}
+.header {
+  display: flex;
+  align-items: center;
+  height: 64px;
+  width: 100%;
+  background-color: #fff;
+  padding-left: 15px;
+
+  @include for-large-up {
+    width: 1140px;
+    height: 62px;
+    margin: auto;
+    display: flex;
+    background: transparent;
+  }
+  &__button {
+    display: none;
+
+    @include for-large-up {
+      display: block;
+    }
+  }
+  &__menu-button {
+    width: 58px;
+    height: 100%;
+    border: none;
+    border-left: 1px solid #00000026;
+    margin-left: auto;
+    background: transparent;
+    @include for-large-up {
+      display: none;
+    }
+  }
+  &__menu-button {
+    width: 58px;
+    height: 100%;
+    border: none;
+    border-left: 1px solid #00000026;
+    margin-left: auto;
+    background: transparent;
+  }
+  .logo__description {
+    display: none;
+  }
+}
+
+.navigation {
+  display: none;
+  @include for-large-up {
+    display: block;
+    margin-left: auto;
+    margin-top: 7px;
+    margin-right: 75px;
+  }
+}
+@media screen and (min-width: 400px) {
+  .header__menu-icon {
+    display: none;
+  }
+  .navigation {
+    &__item {
+      font-size: 18px;
+      line-height: 25px;
+      text-decoration: none;
+      color: #2b292d;
+      line-height: 25px;
+      font-size: 18px;
+      margin-right: 50px;
+    }
+
+    &__arrow-img {
+      width: 8px;
+      height: 5px;
+      display: inline-block;
+      margin-left: 11px;
+    }
+    &__item:last-child {
+      margin-right: 0;
+    }
+    &__item_selected {
+      font-weight: 700;
+    }
+  }
+  .header {
+    background-color: #f3c6bd;
+    width: 1140px;
+    height: 62px;
+    margin: auto;
+    display: flex;
+  }
+
+  .logo__description {
+    display: none;
+    font-size: 18px;
+    line-height: 25px;
+    color: #2b292d;
+    opacity: 0.6;
+  }
+  .logo__image {
+    margin-right: 15px;
+    width: 60px;
+    height: 60px;
+  }
+}
+
+.logo {
+  display: flex;
+  &__image {
+    margin-right: 13px;
+    width: 48px;
+    height: 48px;
+  }
+  &__name {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    color: #2b292d;
+  }
+
+  &__text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}

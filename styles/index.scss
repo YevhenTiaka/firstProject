@@ -1,0 +1,35 @@
+@import 'breakpoints';
+
+@import 'header';
+@import 'common';
+@import 'about';
+@import 'audience';
+@import 'headline';
+@import 'customers';
+@import 'features';
+@import 'tips';
+@import 'footer';
+@import 'order';
+
+* {
+  box-sizing: border-box;
+}
+body {
+  font-size: 16px;
+  font-family: 'Work Sans', sans-serif;
+  color: #2b292d;
+}
+.page {
+  width: 100%;
+  overflow-x: hidden;
+  overflow: hidden;
+}
+@include for-large-up {
+  .page {
+    min-height: 100vh;
+    max-width: 1400px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+  }
+}
