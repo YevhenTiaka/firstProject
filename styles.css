@@ -58,6 +58,11 @@
 .header .logo__description {
   display: none;
 }
+@media screen and (min-width: 1400px) {
+  .header .logo__description {
+    display: block;
+  }
+}
 
 .navigation {
   display: none;
@@ -203,7 +208,7 @@
 }
 
 .audience {
-  background-color: #c2e9f1;
+  background-color: rgba(0, 161, 198, 0.07);
   display: flex;
   flex-direction: column;
 }
@@ -240,12 +245,18 @@
   margin-bottom: 15px;
   margin-top: 15px;
 }
+.audience__item:first-child {
+  margin-top: 40px;
+}
 @media screen and (min-width: 1400px) {
   .audience__item {
     margin: 0;
     margin-right: 10px;
     margin-bottom: 110px;
     width: 555px;
+  }
+  .audience__item:first-child {
+    margin-top: 0px;
   }
 }
 .audience__item:hover {

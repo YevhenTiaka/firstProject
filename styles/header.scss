@@ -49,6 +49,9 @@
   }
   .logo__description {
     display: none;
+    @include for-large-up {
+      display: block;
+    }
   }
 }
 
