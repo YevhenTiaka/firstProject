@@ -114,9 +114,11 @@
 
   @include for-large-up {
     height: 50px;
-    margin: 0 auto;
     flex-direction: row;
     align-items: center;
+    margin: 130px;
+    margin-top: 0px;
+    margin-bottom: 0px;
   }
 }
 
