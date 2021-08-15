@@ -209,10 +209,12 @@
 
 .audience {
   background-color: rgba(0, 161, 198, 0.07);
-  display: flex;
-  flex-direction: column;
 }
 @media screen and (min-width: 1400px) {
+  .audience {
+    display: flex;
+    flex-direction: column;
+  }
   .audience__container {
     display: flex;
     align-items: center;
@@ -220,35 +222,60 @@
     margin-right: 131px;
     margin-top: 111px;
   }
+  .audience__actions {
+    margin-right: 15px;
+    margin-left: 15px;
+  }
 }
-.audience__subtitle {
-  font-size: 40px;
-  line-height: 40px;
-}
-.audience__header {
-  margin: 50px 15px 0px 15px;
-  color: #2b292d;
-  font-weight: 700;
-  font-size: 22px;
-  line-height: 34px;
-  text-align: center;
-}
-.audience__item {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin: auto;
-  width: 290px;
-  height: 300px;
-  background-color: #fff;
-  border-radius: 8px;
-  margin-bottom: 15px;
-  margin-top: 15px;
-}
-.audience__item:first-child {
-  margin-top: 40px;
+@media screen and (min-width: 1400px) and (min-width: 1400px) {
+  .audience__actions {
+    display: flex;
+    justify-content: center;
+    margin-top: 34px;
+  }
 }
 @media screen and (min-width: 1400px) {
+  .audience__subtitle {
+    margin-top: 10px;
+    font-size: 40px;
+    line-height: 40px;
+  }
+}
+@media screen and (min-width: 1400px) {
+  .audience__header {
+    margin: 50px 15px 0px 15px;
+    color: #2b292d;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 34px;
+    text-align: center;
+  }
+}
+@media screen and (min-width: 1400px) and (min-width: 1400px) {
+  .audience__header {
+    width: 555px;
+    margin: 0 auto;
+    margin-top: 108px;
+  }
+}
+@media screen and (min-width: 1400px) {
+  .audience__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    width: 290px;
+    height: 300px;
+    background-color: #fff;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+  }
+  .audience__item:first-child {
+    margin-top: 40px;
+  }
+}
+@media screen and (min-width: 1400px) and (min-width: 1400px) {
   .audience__item {
     margin: 0;
     margin-right: 10px;
@@ -259,49 +286,51 @@
     margin-top: 0px;
   }
 }
-.audience__item:hover {
-  background-color: #3141c5;
-}
-.audience__item:hover .audience__description_item {
-  color: white;
-}
-.audience__img {
-  max-width: 100%;
-  max-height: 100%;
-}
-.audience__img:first-child {
-  margin-top: 15px;
-}
-.audience__title {
-  margin-bottom: 15px;
-  font-size: 22px;
-  font-weight: bold;
-  line-height: 34px;
-}
-.audience__description {
-  margin-top: 18px;
-  font-size: 24px;
-  line-height: 34px;
-  color: #2b292d;
-  font-weight: 300;
-  margin-bottom: 0;
-}
-.audience__description_item {
-  font-size: 22px;
-  font-weight: 700;
-  line-height: 28px;
-  color: #2b292d;
-  padding-top: 22px;
-}
-
-.headline__actions {
-  margin-right: 15px;
-  margin-left: 15px;
+@media screen and (min-width: 1400px) {
+  .audience__item:hover {
+    background-color: #3141c5;
+  }
+  .audience__item:hover .audience__description_item {
+    color: white;
+  }
 }
 @media screen and (min-width: 1400px) {
-  .headline__actions {
-    justify-content: center;
+  .audience__img {
+    max-width: 100%;
+    max-height: 100%;
   }
+  .audience__img:first-child {
+    margin-top: 15px;
+  }
+}
+@media screen and (min-width: 1400px) {
+  .audience__title {
+    margin-bottom: 15px;
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 34px;
+  }
+}
+@media screen and (min-width: 1400px) {
+  .audience__description {
+    margin-top: 30px;
+    font-size: 24px;
+    line-height: 34px;
+    color: #2b292d;
+    font-weight: 300;
+    margin-bottom: 0;
+  }
+  .audience__description_item {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 28px;
+    color: #2b292d;
+    padding-top: 22px;
+  }
+}
+
+.audience__btn {
+  justify-content: center;
 }
 
 .headline {
@@ -327,8 +356,14 @@
   line-height: 34px;
 }
 
-.headline__actions {
+.headline__audience_btn {
   margin-top: 30px;
+}
+@media screen and (min-width: 1400px) {
+  .headline__audience_btn {
+    justify-content: left;
+    margin-left: 0;
+  }
 }
 
 .headline__learn-more_btn {

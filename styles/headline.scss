@@ -17,8 +17,12 @@
   font-size: 24px;
   line-height: 34px;
 }
-.headline__actions {
+.headline__audience_btn {
   margin-top: 30px;
+  @include for-large-up {
+    justify-content: left;
+    margin-left: 0;
+  }
 }
 
 .headline__learn-more_btn {
