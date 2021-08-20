@@ -13,7 +13,6 @@
     font-size: 18px;
     margin-top: 26px;
     color: rgba(43, 41, 45, 0.6);
-
     @include for-large-up {
       display: block;
     }
@@ -35,12 +34,10 @@
     }
   }
 }
-
 .footer-navigation {
   display: flex;
   flex-direction: column;
   margin: 0;
-
   @include for-large-up {
     display: flex;
     flex-direction: row;
@@ -49,13 +46,11 @@
     height: 338px;
   }
 }
-
 .additional-navigation {
   margin-left: 15px;
   margin-right: 15px;
   display: flex;
   flex-direction: column;
-
   @include for-large-up {
     margin-top: 60px;
     margin-left: auto;
@@ -63,14 +58,12 @@
   }
   &__column {
     margin-top: 30px;
-
     @include for-large-up {
       margin-top: 0px;
       margin-right: 29px;
     }
   }
 }
-
 .nav-links {
   width: 265px;
 
@@ -91,12 +84,10 @@
     margin: 0;
   }
 }
-
 .downloads {
   display: flex;
   justify-content: center;
   margin: 25px 15px 0 15px;
-
   @include for-large-up {
     margin: 0;
     margin-top: 25px;
@@ -106,12 +97,10 @@
     margin-right: 10px;
   }
 }
-
 .footer-links {
   margin-left: 15px;
   display: flex;
   flex-direction: column;
-
   @include for-large-up {
     height: 50px;
     flex-direction: row;
@@ -121,18 +110,15 @@
     margin-bottom: 0px;
   }
 }
-
 .terms {
   line-height: 50px;
   font-size: 16px;
   @include for-large-up {
   }
-
   @include for-large-up {
     line-height: 50px;
     margin-top: 0;
   }
-
   &__items {
     text-decoration: none;
     margin-left: 20px;
@@ -142,11 +128,9 @@
     margin-left: 0;
   }
 }
-
 .social-links {
   margin-top: 30px;
   margin-bottom: 23px;
-
   @include for-large-up {
     margin-left: auto;
   }
@@ -161,12 +145,10 @@
     margin-left: 0;
   }
 }
-
 .logo-vertical {
   display: flex;
   flex-direction: column;
   align-items: center;
-
   @include for-large-up {
     display: none;
   }
