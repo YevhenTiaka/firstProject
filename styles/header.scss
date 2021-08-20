@@ -24,7 +24,7 @@
   &__button {
     display: none;
 
-    @include for-large-up {
+    @include for-large-down {
       display: block;
     }
   }
