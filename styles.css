@@ -934,10 +934,9 @@
 
 body {
   font-size: 16px;
-  font-family: "Work Sans", sans-serif;
+  font-family: 'Work Sans', sans-serif;
   color: #2b292d;
 }
-
 .page {
   width: 100%;
   overflow-x: hidden;
