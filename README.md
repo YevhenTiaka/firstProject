@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Layout Sample Project
 
 ### [Site link](https://github.com/YevhenTiaka/firstProject)
@@ -15,16 +14,4 @@ Layout supports mobile (up-to-400) and desktop (up-to-1360) versions
 
 ### Author
 
-- Tiaka Yevhen
-=======
-+Layout Sample Project#
-+Site link: **https://github.com/YevhenTiaka/firstProject**
-+Layout supports mobile **(up-to-320)** and desktop **(up-to-1400)** versions
-####The tech stack is:
-**HTML5**
-**CSS3**
-**Flexbox**
-**Sass (Scss)**
-**BEM methodology**
-**Author:** **Tiaka Yevhen**
->>>>>>> 90fe4814318f0284179765c9911321bd3ccc7fdc
+- **Tiaka Yevhen**
