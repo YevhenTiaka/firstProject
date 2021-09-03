@@ -1,3 +1,21 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 16px;
+  font-family: 'Work Sans', sans-serif;
+  color: #2b292d;
+}
+
+.page {
+  width: 100%;
+  overflow-x: hidden;
+  overflow: hidden;
+}
+
+
+
 .topsection {
   background-color: #f3c6bd;
 }
@@ -1011,21 +1029,7 @@
   color: #3142c6;
 }
 
-* {
-  box-sizing: border-box;
-}
 
-body {
-  font-size: 16px;
-  font-family: 'Work Sans', sans-serif;
-  color: #2b292d;
-}
-
-.page {
-  width: 100%;
-  overflow-x: hidden;
-  overflow: hidden;
-}
 
 @media screen and (min-width: 1400px) {
   .page {

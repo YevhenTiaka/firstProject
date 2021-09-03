@@ -1,15 +1,3 @@
-@import 'breakpoints';
-
-@import 'header';
-@import 'common';
-@import 'about';
-@import 'audience';
-@import 'headline';
-@import 'customers';
-@import 'features';
-@import 'tips';
-@import 'footer';
-@import 'order';
 * {
   box-sizing: border-box;
 }
@@ -23,6 +11,19 @@ body {
   overflow-x: hidden;
   overflow: hidden;
 }
+@import 'breakpoints';
+
+@import 'header';
+@import 'common';
+@import 'about';
+@import 'audience';
+@import 'headline';
+@import 'customers';
+@import 'features';
+@import 'tips';
+@import 'footer';
+@import 'order';
+
 @include for-large-up {
   .page {
     min-height: 100vh;
