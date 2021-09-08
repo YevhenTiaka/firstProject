@@ -14,8 +14,6 @@ body {
   overflow: hidden;
 }
 
-
-
 .topsection {
   background-color: #f3c6bd;
 }
@@ -639,7 +637,6 @@ body {
 .features__banner {
   position: absolute;
   right: 0;
-  box-shadow: 0px 4px 16px rgba(44, 50, 65, 0.08);
 }
 
 .tips {
@@ -1028,8 +1025,6 @@ body {
 .order__terms-link {
   color: #3142c6;
 }
-
-
 
 @media screen and (min-width: 1400px) {
   .page {

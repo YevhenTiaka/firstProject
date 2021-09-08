@@ -2,6 +2,8 @@
 
 ### [Site link](https://github.com/YevhenTiaka/firstProject)
 
+### [ link](https://yevhentiaka.github.io/firstProject/)
+
 Layout supports mobile (up-to-320) and desktop (up-to-1400) versions
 
 ### The tech stack is:
